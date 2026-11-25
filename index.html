@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Портфолио исполнителя KaiAngel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <!-- Логотип слева: замени на свою картинку/SVG из макета -->
+      <a href="#" class="logo">
+        <img src="images/logo-ka.png" alt="KA">
+      </a>
+
+      <!-- Навигация по центру -->
+      <nav class="nav">
+        <a href="#main" class="nav-link nav-link-active">Главная</a>
+        <a href="#about" class="nav-link">O Kai Angel</a>
+        <a href="#news" class="nav-link">Инфоповоды</a>
+        <a href="#bio" class="nav-link">Биография</a>
+      </nav>
+
+      <!-- Правые кнопки -->
+      <div class="header-actions">
+        <button type="button" class="search-btn" aria-label="Поиск">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+          </svg>
+        </button>
+
+        <button type="button" class="text-btn">ТЕКСТ</button>
+
+        <button type="button" class="theme-btn" aria-label="Переключить тему">
+          <span class="theme-circle"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <!-- Декоративные элементы по бокам: замени на свои PNG/SVG из макета -->
+    <img class="decor-left" src="images/decor-left.svg" alt="">
+    <img class="decor-right" src="images/decor-right.svg" alt="">
+
+    <div class="hero-inner">
+      <h1 class="hero-title">
+        <span class="title-dark">Портфолио исполнителя</span>
+        <span class="title-accent">KaiAngel</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Музыка, визуал и история творческого пути Kai Angel.
+      </p>
+
+      <a href="#about" class="hero-btn">Узнать больше</a>
+    </div>
+
+    <!-- Ряд карточек релизов -->
+    <!-- Ряд карточек релизов -->
+    <div class="releases-row">
+      <article class="release-card">
+        <img class="release-cover" src="images/cover-left-edge.jpg" alt="">
+        <div class="release-top">
+          <h3 class="release-title"></h3>
+          <div class="release-platforms">
+            <span class="mini-badge">VK</span>
+            <span class="mini-badge">ЯМ</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="release-card">
+        <img class="release-cover" src="images/cover-damage.jpg" alt="damage">
+        <div class="release-top">
+          <h3 class="release-title">damage</h3>
+          <div class="release-platforms">
+            <span class="mini-badge mini-badge-vk">VK</span>
+            <span class="mini-badge mini-badge-ym">ЯМ</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="release-card">
+        <img class="release-cover" src="images/cover-angel-may-cry.jpg" alt="Angel may cry">
+        <div class="release-top">
+          <h3 class="release-title">Angel may cry</h3>
+          <div class="release-platforms">
+            <span class="mini-badge mini-badge-vk">VK</span>
+            <span class="mini-badge mini-badge-ym">ЯМ</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="release-card">
+        <img class="release-cover" src="images/cover-heavy-metal.jpg" alt="Тяжелый металл">
+        <div class="release-top">
+          <h3 class="release-title">Тяжелый металл</h3>
+          <div class="release-platforms">
+            <span class="mini-badge mini-badge-vk">VK</span>
+            <span class="mini-badge mini-badge-ym">ЯМ</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="release-card">
+        <img class="release-cover" src="images/cover-right-edge.jpg" alt="">
+        <div class="release-top">
+          <h3 class="release-title"></h3>
+          <div class="release-platforms">
+            <span class="mini-badge">VK</span>
+            <span class="mini-badge">ЯМ</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Кнопки перелистывания -->
+    <div class="slider-controls">
+      <button type="button" class="arrow-btn" aria-label="Назад">←</button>
+      <button type="button" class="arrow-btn" aria-label="Вперёд">→</button>
+    </div>
+
+    <!-- Блок площадок -->
+    <div class="platforms-bar">
+      <span class="platforms-label">Выпускается на:</span>
+
+      <div class="platforms-list">
+        <!-- Замени на логотипы из макета или SVG -->
+        <span class="platform-item">Spotify</span>
+        <span class="platform-item">VK Музыка</span>
+        <span class="platform-item">Яндекс Музыка</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="top-tracks">
+  <!-- Фоновые разводы/пятна: замени на свою картинку/SVG из макета -->
+  <img class="top-tracks-bg" src="images/tracks-bg-pattern.png" alt="">
+  <!-- Декоративные штрихи справа от заголовка -->
+  <img class="top-tracks-stripes" src="images/tracks-stripes.png" alt="">
+
+  <div class="top-tracks-inner">
+    <h2 class="top-tracks-title">
+      <span>Самые популярные треки</span>
+      <span>за месяц</span>
+    </h2>
+    <p class="top-tracks-subtitle">По прослушиваниям</p>
+
+    <div class="tracks-grid">
+      <!-- 1. andy warhol -->
+      <article class="track-card">
+        <div class="track-left">
+          <div class="track-cover">
+            <img src="images/track-shh.jpg" alt="andy warhol">
+            <div class="track-badges">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <div class="track-num">1.</div>
+          <h3 class="track-name">andy warhol</h3>
+          <p class="track-album">Альбом “Shh..”</p>
+        </div>
+
+        <div class="track-meta">
+          <div class="track-tags">
+            <span class="lang-tag">Английский</span>
+            <span class="lang-tag">Русский</span>
+          </div>
+          <span class="track-date">
+            дата выхода: <strong class="date-accent">04.09.26</strong>
+          </span>
+        </div>
+      </article>
+
+      <!-- 4. Ринопластика -->
+      <article class="track-card">
+        <div class="track-left">
+          <div class="track-cover">
+            <img src="images/track-hm2.jpg" alt="Ринопластика">
+            <div class="track-badges">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <div class="track-num">4.</div>
+          <h3 class="track-name">Ринопластика</h3>
+          <p class="track-album">Альбом “Heavy Metal 2”</p>
+        </div>
+
+        <div class="track-meta">
+          <div class="track-tags">
+            <span class="lang-tag">Русский</span>
+          </div>
+          <span class="track-date">
+            дата выхода: <strong class="date-accent">04.09.26</strong>
+          </span>
+        </div>
+      </article>
+
+      <!-- 2. BABYLON -->
+      <article class="track-card">
+        <div class="track-left">
+          <div class="track-cover">
+            <img src="images/track-shh.jpg" alt="BABYLON">
+            <div class="track-badges">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <div class="track-num">2.</div>
+          <h3 class="track-name track-name-underlined">BABYLON</h3>
+          <p class="track-album">Альбом “Shh..”</p>
+        </div>
+
+        <div class="track-meta">
+          <div class="track-tags">
+            <span class="lang-tag">Английский</span>
+            <span class="lang-tag">Русский</span>
+          </div>
+          <span class="track-date">
+            дата выхода: <strong class="date-accent">04.09.26</strong>
+          </span>
+        </div>
+      </article>
+
+      <!-- 5. JUMP -->
+      <article class="track-card">
+        <div class="track-left">
+          <div class="track-cover">
+            <img src="images/track-jump.jpg" alt="JUMP">
+            <div class="track-badges">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <div class="track-num">5.</div>
+          <h3 class="track-name">JUMP</h3>
+          <p class="track-album">Альбом “ANGEL MAY CRY”</p>
+        </div>
+
+        <div class="track-meta">
+          <div class="track-tags">
+            <span class="lang-tag">Английский</span>
+            <span class="lang-tag">Русский</span>
+          </div>
+          <span class="track-date">
+            дата выхода: <strong class="date-accent">04.09.26</strong>
+          </span>
+        </div>
+      </article>
+
+      <!-- 3. LIPSTICK -->
+      <article class="track-card">
+        <div class="track-left">
+          <div class="track-cover">
+            <img src="images/track-hm2.jpg" alt="LIPSTICK">
+            <div class="track-badges">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <div class="track-num">3.</div>
+          <h3 class="track-name">LIPSTICK</h3>
+          <p class="track-album">Альбом “Heavy Metal 2”</p>
+        </div>
+
+        <div class="track-meta">
+          <div class="track-tags">
+            <span class="lang-tag">Русский</span>
+          </div>
+          <span class="track-date">
+            дата выхода: <strong class="date-accent">04.09.26</strong>
+          </span>
+        </div>
+      </article>
+
+      <!-- 6. Limousine Music -->
+      <article class="track-card">
+        <div class="track-left">
+          <div class="track-cover">
+            <img src="images/track-limousine.jpg" alt="Limousine Music">
+            <div class="track-badges">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="track-info">
+          <div class="track-num">6.</div>
+          <h3 class="track-name">Limousine Music</h3>
+          <p class="track-album">EP - мини-альбом (1 трек)</p>
+        </div>
+
+        <div class="track-meta">
+          <div class="track-tags">
+            <span class="lang-tag">Английский</span>
+            <span class="lang-tag">Русский</span>
+          </div>
+          <span class="track-date">
+            дата выхода: <strong class="date-accent">04.09.26</strong>
+          </span>
+        </div>
+      </article>
+    </div>
+
+    <div class="top-tracks-footer">
+      <a href="#" class="tracks-more-btn">Найти песни на Яндекс</a>
+    </div>
+  </div>
+  </section>
+
+  <section class="industry-impact">
+  <!-- Декоративная волна/линия сверху справа: замени на свою картинку/SVG из макета -->
+  <img class="impact-decor" src="images/impact-wave.png" alt="">
+
+  <div class="impact-inner">
+    <h2 class="impact-title">
+      <span>Вклад в российскую</span>
+      <span>индустрию музыки</span>
+    </h2>
+
+    <div class="impact-grid">
+      <!-- 1. Viperr -->
+      <article class="impact-card">
+        <div class="impact-icon">
+          <img src="images/icon-viperr.png" alt="Viperr">
+        </div>
+        <h3 class="impact-heading impact-heading-accent">
+          Создал дуэт Viperr и движение «вайперов»
+        </h3>
+        <p class="impact-text">
+          Вместе с 9mice дуэт Viperr основал Kai Angel. Их музыка и эстетика сформировали движение «вайперов» — голос поколения зумеров и одно из главных явлений современной российской сцены.
+        </p>
+      </article>
+
+      <!-- 2. Русский рейджа -->
+      <article class="impact-card">
+        <div class="impact-icon">
+          <img src="images/icon-asterisk.png" alt="">
+        </div>
+        <h3 class="impact-heading">
+          Привнёс звучание «русского рейджа»
+        </h3>
+        <p class="impact-text">
+          Альбом Heavy Metal (2023) дуэта Viperr познакомил российскую аудиторию с тем, как должен звучать «русский рейдж», вдохновлённый западным лейблом Opium.
+        </p>
+      </article>
+
+      <!-- 3. Genius -->
+      <article class="impact-card">
+        <div class="impact-icon">
+          <img src="images/icon-genius.png" alt="Genius">
+        </div>
+        <h3 class="impact-heading impact-heading-accent">
+          Выход за пределы русскоязычной сцены
+        </h3>
+        <p class="impact-text">
+          Влияние Kai Angel вышло за пределы России: музыку Viperr слушают за рубежом, подростки от Владивостока до Лондона снимают видео в TikTok, а альбом Heavy Metal 2 (2024) лидировал в мировом чарте Genius.
+        </p>
+      </article>
+
+      <!-- 4. ERD -->
+      <article class="impact-card">
+        <div class="impact-icon">
+          <img src="images/icon-erd.png" alt="ERD">
+        </div>
+        <h3 class="impact-heading">
+          Повлиял на молодёжную моду и стиль
+        </h3>
+        <p class="impact-text">
+          Музыка Kai Angel стала саундтреком зумеров в Rick Owens, Vetements и Balenciaga. Он связан с фэшн-индустрией: снимался у Гоши Рубчинского и отсылает к Enfants Riches Déprimés.
+        </p>
+      </article>
+
+      <!-- 5. Клипмейкер -->
+      <article class="impact-card">
+        <div class="impact-icon">
+          <img src="images/icon-camera.png" alt="">
+        </div>
+        <h3 class="impact-heading impact-heading-accent">
+          Прошёл путь от клипмейкера до артиста
+        </h3>
+        <p class="impact-text">
+          До сольной карьеры Ицков был клипмейкером — снимал для Boulevard Depo и Saluki («Кащенко», «Дорогая грусть»). Этот опыт сформировал его эстетику и помог создавать узнаваемые образы для своих проектов.
+        </p>
+      </article>
+
+      <!-- 6. SoundCloud -->
+      <article class="impact-card">
+        <div class="impact-icon">
+          <img src="images/icon-soundcloud.png" alt="SoundCloud">
+        </div>
+        <h3 class="impact-heading">
+          Воспитал волну последователей
+        </h3>
+        <p class="impact-text">
+          Влияние Kai Angel видно и по числу новых артистов «по его лекалам»: на SoundCloud многие копируют звук Viperr. С 9mice он создал настолько узнаваемый саунд, что тот стал отдельным поджанром.
+        </p>
+      </article>
+    </div>
+
+    <div class="impact-footer">
+      <a href="#" class="impact-btn">Подробнее</a>
+    </div>
+  </div>
+  </section>
+
+  <section class="opinions-section">
+  <div class="opinions-inner">
+    <div class="opinions-header">
+      <!-- Декоративные лучики сверху слева от заголовка: замени на свой SVG/PNG -->
+      <img class="opinions-rays" src="images/opinions-rays.png" alt="">
+
+      <h2 class="opinions-title">Мнение об артисте</h2>
+      <p class="opinions-subtitle">
+        Совокупность оценок критиков и отзывов слушателей:
+        о художественной позиции Kai Angel и эволюции его творчества
+      </p>
+    </div>
+
+    <div class="opinions-track">
+      <!-- Карточка 1 -->
+      <article class="opinion-card">
+        <div class="opinion-quote" aria-hidden="true">“</div>
+        <p class="opinion-text">
+          Критики отмечают переход от «шоковой терапии» ранних работ к более тихому и грустному звучанию после ухода из Viperr 9mice .
+        </p>
+        <div class="opinion-author">
+          <img class="opinion-avatar" src="images/avatar-pligovka.png" alt="Максим Плиговка">
+          <span class="opinion-name">Максим Плиговка</span>
+        </div>
+      </article>
+
+      <!-- Карточка 2 -->
+      <article class="opinion-card">
+        <div class="opinion-quote" aria-hidden="true">“</div>
+        <p class="opinion-text">
+          The Flow указывает: переход на английский и отход от rage-бита принесли артисту крупные площадки и миллионы прослушиваний .
+        </p>
+        <div class="opinion-author">
+          <img class="opinion-avatar" src="images/avatar-pligovka.png" alt="Максим Плиговка">
+          <span class="opinion-name">Максим Плиговка</span>
+        </div>
+      </article>
+
+      <!-- Карточка 3 (частично видна справа по макету) -->
+      <article class="opinion-card">
+        <div class="opinion-quote" aria-hidden="true">“</div>
+        <p class="opinion-text">
+          Мнение слушателей о треках: «скучно». «Очень слабо». Самой частой похвалой стала доброжелательность.
+        </p>
+        <div class="opinion-author">
+          <img class="opinion-avatar" src="images/avatar-pligovka.png" alt="Максим Плиговка">
+          <span class="opinion-name">Максим Плиговка</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="opinions-controls">
+      <button type="button" class="circle-arrow-btn" aria-label="Предыдущий отзыв">‹</button>
+      <button type="button" class="circle-arrow-btn circle-arrow-accent" aria-label="Следующий отзыв">›</button>
+    </div>
+  </div>
+  </section>
+</body>
+</html>
