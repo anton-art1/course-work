@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Инфоповоды — Kai Angel</title>
+  <link rel="stylesheet" href="news.css">
+</head>
+<body>
+
+  <!-- Верхняя обёртка с кремовым фоном для шапки и hero -->
+  <div class="top-wrapper">
+    <header class="header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <img src="images/logo-ka.png" alt="KA">
+        </a>
+
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Главная</a>
+          <a href="about.html" class="nav-link">О Kai Angel</a>
+          <a href="news.html" class="nav-link nav-link-active">Инфоповоды</a>
+          <a href="bio.html" class="nav-link">Биография</a>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="search-btn" aria-label="Поиск">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+            </svg>
+          </button>
+
+          <button type="button" class="text-btn">ТЕКСТ</button>
+
+          <button type="button" class="theme-btn" aria-label="Переключить тему">
+            <span class="theme-circle"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <section class="news-hero">
+    <!-- Декоративные элементы: замени на свои PNG/SVG из макета -->
+    <img class="decor-left" src="images/decor-left.png" alt="">
+    <img class="decor-right" src="images/decor-right.png" alt="">
+
+    <div class="news-hero-inner">
+        <h1 class="news-hero-title">Инфоповоды</h1>
+
+        <p class="news-hero-subtitle">
+        Главные новости, релизы и ключевые события из мира Kai Angel собраны в этом разделе для быстрого доступа к самой актуальной информации.
+        </p>
+
+        <!-- Строка поиска ровно на границе кремового и белого фона -->
+        <form class="news-search-form" action="#" method="get">
+        <label class="news-search-box">
+            <svg class="news-search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+            </svg>
+            <input type="text" class="news-search-input" placeholder="Поиск...">
+        </label>
+        </form>
+    </div>
+  </section>
+
+  <section class="all-news-section">
+  <div class="all-news-inner">
+    <div class="all-news-header">
+      <!-- Декоративные лучики сверху слева от заголовка -->
+      <img class="all-news-rays" src="images/concerts-rays.png" alt="">
+      <h2 class="all-news-title">Новости</h2>
+    </div>
+
+    <!-- Фильтр по годам со стрелками -->
+    <div class="news-filter-bar">
+      <button type="button" class="circle-arrow-btn" aria-label="Предыдущие годы">‹</button>
+
+      <div class="news-years">
+        <button type="button" class="year-btn year-btn-active">Все</button>
+        <button type="button" class="year-btn">2026</button>
+        <button type="button" class="year-btn">2025</button>
+        <button type="button" class="year-btn">2024</button>
+        <button type="button" class="year-btn">2023</button>
+        <button type="button" class="year-btn">2022</button>
+      </div>
+
+      <button type="button" class="circle-arrow-btn circle-arrow-accent" aria-label="Следующие годы">›</button>
+    </div>
+
+    <!-- Сетка из 8 карточек новостей -->
+    <div class="all-news-grid">
+      <!-- 1. Тёплые руки для особенных детей -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-annushka.jpg" alt="Тёплые руки для особенных детей">
+        </div>
+
+        <h3 class="news-heading news-heading-accent">
+          <span>Тёплые руки</span>
+          <span>для особенных детей</span>
+        </h3>
+
+        <p class="news-text">
+          Благотворительный фонд «Аннушка» — это проект, созданный семьей, которая на собственном опыте знает, что такое редкие генетические заболевания и борьба за здоровье ребенка.
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2026</span>
+            <span class="news-tag">Новости</span>
+          </div>
+          <time class="news-date" datetime="2026-11-04">Ноябрь 4, 2026</time>
+        </div>
+      </article>
+
+      <!-- 2. Сольные эксперименты и громкие союзы Kai Angel -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-kai-angel.jpg" alt="Сольные эксперименты и громкие союзы Kai Angel">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Сольные эксперименты и</span>
+          <span>громкие союзы Kai Angel</span>
+        </h3>
+
+        <p class="news-text">
+          Это баланс между мрачными сольными экспериментами (God System, Angel May Cry) и взрывными релизами проекта Viperr, которые задают тренды всей новой школе.
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2022</span>
+            <span class="news-tag">Новости</span>
+            <span class="news-tag">Коллаборации</span>
+          </div>
+          <time class="news-date" datetime="2022-04-08">Апрель 8, 2022</time>
+        </div>
+      </article>
+
+      <!-- 3. Релиз трека «Пауки» от Kai Angel и 9mice -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-pauki.jpg" alt="Релиз трека «Пауки» от Kai Angel и 9mice">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Релиз трека «Пауки» от</span>
+          <span>Kai Angel и 9mice</span>
+        </h3>
+
+        <p class="news-text">
+          Неанонсированный трэп-трек 2025 года без мата — саундтрек сериала «Смертельный стрим» о навязчивых мыслях («пауках в голове»).
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2025</span>
+            <span class="news-tag">Релиз</span>
+            <span class="news-tag">Коллаборации</span>
+          </div>
+          <time class="news-date" datetime="2025-01-03">Январь 3, 2025</time>
+        </div>
+      </article>
+
+      <!-- 4. Уход от рэпа в инди-рок -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-indie-rock.jpg" alt="Уход от рэпа в инди-рок">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Уход от рэпа в инди-рок</span>
+        </h3>
+
+        <p class="news-text">
+          Англоязычный альбом 2026 года с радикальным уходом от рэпа в инди и альтернативный рок. В этой работе артист вернулся к игре на гитаре и самостоятельному сведению треков.
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2026</span>
+            <span class="news-tag">События</span>
+          </div>
+          <time class="news-date" datetime="2026-09-04">Сентябрь 4, 2026</time>
+        </div>
+      </article>
+
+      <!-- 5. Распад дуэта Viperr и конфликт с 9mice -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-viperr-split.jpg" alt="Распад дуэта Viperr и конфликт с 9mice">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Распад дуэта Viperr и</span>
+          <span>конфликт с 9mice</span>
+        </h3>
+
+        <p class="news-text">
+          В 2025 году Kai Angel объявил о распаде дуэта Viperr, о чём 9mice узнал из интернета. Причиной называли конфликт в Казани, где они «почти подрались» и разгромили гримёрку .
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2026</span>
+            <span class="news-tag">События</span>
+            <span class="news-tag">Новости</span>
+          </div>
+          <time class="news-date" datetime="2026-11-04">Ноябрь 4, 2026</time>
+        </div>
+      </article>
+
+      <!-- 6. Номинация Forbes «30 до 30» -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-forbes.jpg" alt="Номинация Forbes «30 до 30»">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Номинация Forbes</span>
+          <span>«30 до 30»</span>
+        </h3>
+
+        <p class="news-text">
+          В 2024 году Kai Angel и 9mice вошли в число номинантов российского рейтинга Forbes «30 до 30» в категории «Музыка». В том же году его сольный альбом God System возглавил чарт Apple Music
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2025</span>
+            <span class="news-tag">События</span>
+            <span class="news-tag">Коллаборации</span>
+          </div>
+          <time class="news-date" datetime="2025-05-13">май 13, 2025</time>
+        </div>
+      </article>
+
+      <!-- 7. Kai Angel — Прошлое как Zavet -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-zavet.jpg" alt="Kai Angel — Прошлое как Zavet">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Kai Angel — Прошлое как</span>
+          <span>Zavet</span>
+        </h3>
+
+        <p class="news-text">
+          До рэп-карьеры Дмитрий Ицков снимал клипы для звезд и выпускал экспериментальный рэп под псевдонимом Zavet (альбом «Жилы» вошёл в топ-50 по версии The Flow).
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2025</span>
+            <span class="news-tag">Новости</span>
+          </div>
+          <time class="news-date" datetime="2025-05-10">Май 10, 2025</time>
+        </div>
+      </article>
+
+      <!-- 8. Kai Angel & 9mice — Концерт в Roblox -->
+      <article class="news-card">
+        <div class="news-photo">
+          <img src="images/news-roblox.jpg" alt="Kai Angel & 9mice — Концерт в Roblox">
+        </div>
+
+        <h3 class="news-heading">
+          <span>Kai Angel &amp; 9mice —</span>
+          <span>Концерт в Roblox</span>
+        </h3>
+
+        <p class="news-text">
+          Прошедший в сентябре 2024 года виртуальный ивент стал одним из первых крупных выступлений российских артистов в метавселенной Roblox.
+        </p>
+
+        <div class="news-footer">
+          <div class="news-tags">
+            <span class="news-tag">2024</span>
+            <span class="news-tag">События</span>
+            <span class="news-tag">Коллаборации</span>
+          </div>
+          <time class="news-date" datetime="2024-09-21">Сентябрь 21, 2024</time>
+        </div>
+      </article>
+    </div>
+  </div>
+  </section>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <!-- Левая колонка: логотип и описание -->
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">
+          <img src="images/logo-ka.png" alt="KA">
+        </a>
+        <p class="footer-desc">
+          Музыка, визуал и история творческого пути Kai Angel.
+        </p>
+      </div>
+
+      <!-- Средняя колонка: ссылки навигации -->
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <ul class="footer-links">
+          <li><a href="#main" class="footer-link footer-link-active">Главная</a></li>
+          <li><a href="#about" class="footer-link">O Kai Angel</a></li>
+          <li><a href="#news" class="footer-link">Инфоповоды</a></li>
+          <li><a href="#bio" class="footer-link">Биография</a></li>
+        </ul>
+      </nav>
+
+      <!-- Правая колонка: площадки -->
+      <div class="footer-platforms">
+        <div class="footer-platforms-title">Платформы:</div>
+        <ul class="footer-platforms-list">
+          <li>
+            <a href="#" class="footer-platform">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span>VK Музыка</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-platform">
+              <span class="mini-badge mini-badge-sp">S</span>
+              <span>Spotify</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-platform">
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+              <span>Яндекс Музыка</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Нижняя строка с копирайтом и ссылками -->
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        ©2022. All Rights Reserved. <a href="#" class="footer-copy-link">Pod of Cast</a>
+      </p>
+
+      <div class="footer-legal">
+        <a href="#">Terms</a>
+        <span>·</span>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>

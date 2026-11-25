@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О Kai Angel</title>
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+  <!-- Верхняя обёртка с шапкой и hero -->
+  <div class="top-wrapper">
+    <header class="header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <img src="images/logo-ka.png" alt="KA">
+        </a>
+
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Главная</a>
+          <a href="about.html" class="nav-link nav-link-active">О Kai Angel</a>
+          <a href="news.html" class="nav-link">Инфоповоды</a>
+          <a href="#bio" class="nav-link">Биография</a>
+        </nav>
+
+        <div class="header-actions">
+          <button type="button" class="search-btn" aria-label="Поиск">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16.5" y1="16.5" x2="21" y2="21"></line>
+            </svg>
+          </button>
+
+          <button type="button" class="text-btn">ТЕКСТ</button>
+
+          <button type="button" class="theme-btn" aria-label="Переключить тему">
+            <span class="theme-circle"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="about-hero">
+      <!-- Декоративные элементы: замени на свои PNG/SVG из макета -->
+      <img class="decor-left" src="images/decor-left.png" alt="">
+      <img class="decor-right" src="images/decor-right.png" alt="">
+      <img class="decor-spiral" src="images/decor-spiral-red.png" alt="">
+
+      <div class="about-hero-inner">
+        <h1 class="about-hero-title">
+          <span class="title-dark">О</span>
+          <span class="title-accent">KaiAngel</span>
+        </h1>
+
+        <p class="about-hero-subtitle">
+          Погружение в мир Kai Angel — его музыкальный путь, знаковые релизы и визуальная эстетика. История артиста, чьё творчество объединяет музыку, стиль и собственное видение современной сцены.
+        </p>
+
+        <!-- Три карточки со статистикой на стыке hero и следующей секции -->
+        <div class="stats-grid">
+          <article class="stat-card">
+            <div class="stat-value">
+              <span class="stat-num">190</span><span class="stat-unit">Шт</span>
+            </div>
+            <p class="stat-label">Количество треков</p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-value">
+              <span class="stat-num">3.7</span><span class="stat-unit">М</span>
+            </div>
+            <p class="stat-label">
+              <span>Колличество слушателей</span>
+              <span>за месяц</span>
+            </p>
+          </article>
+
+          <article class="stat-card">
+            <div class="stat-value">
+              <span class="stat-num">10</span><span class="stat-unit">Шт</span>
+            </div>
+            <p class="stat-label">Количество альбомов</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Секция: ZAVET — до имени Kai Angel + История артиста -->
+  <section class="zavet-section">
+    <div class="zavet-inner">
+      <img class="zavet-spiral" src="images/zavet-spiral.png" alt="">
+
+      <h2 class="zavet-title">
+        <span class="title-accent">ZAVET</span> — до имени Kai Angel
+      </h2>
+
+      <p class="zavet-lead">
+        У творческого пути Kai Angel есть своя предыстория.<br>
+        До того как стать известным под нынешним псевдонимом, исполнитель выпускал музыку под именем <span class="text-accent">ZAVET.</span>
+      </p>
+
+      <!-- Схема ZAVET -> KAI ANGEL -->
+      <div class="era-map">
+        <div class="era-top-row">
+          <div class="era-pill era-pill-dark">ZAVET</div>
+          <img class="era-arrow-center" src="images/arrow-center.png" alt="→">
+          <div class="era-pill era-pill-light">KAI ANGEL</div>
+        </div>
+
+        <div class="era-grid">
+          <!-- Колонка 1: светлые карточки периода ZAVET -->
+          <div class="era-col era-col-left">
+            <img class="era-line-left" src="images/line-left.png" alt="">
+
+            <article class="era-box era-box-light era-box-early">
+              <h3 class="era-box-title">Ранний этап</h3>
+              <p class="era-box-text">
+                Период, когда артист выпускал музыку под псевдонимом ZAVET. С него начинается история, предшествующая появлению имени Kai Angel.
+              </p>
+            </article>
+
+            <article class="era-box era-box-light era-box-works">
+              <h3 class="era-box-title">Ранние работы</h3>
+              <p class="era-box-text">
+                Материалы этого периода помогают познакомиться с ранними релизами и проследить начало музыкальной деятельности артиста.
+              </p>
+            </article>
+          </div>
+
+          <!-- Колонка 2: фото периода ZAVET и карточка «Предыстория» -->
+          <div class="era-col era-col-zavet">
+            <div class="era-photo era-photo-zavet">
+              <img src="images/zavet-cutout.png" alt="ZAVET">
+            </div>
+
+            <article class="era-box era-box-light era-box-prestory">
+              <h3 class="era-box-title">Предыстория</h3>
+              <p class="era-box-text">
+                Период ZAVET представляет раннюю главу истории артиста. Он позволяет рассмотреть его творчество до перехода к другому псевдониму.
+              </p>
+            </article>
+          </div>
+
+          <!-- Колонка 3: фото периода KAI ANGEL и карточка «Предыстория» -->
+          <div class="era-col era-col-kai">
+            <div class="era-photo era-photo-kai">
+              <img src="images/kai-angel-cutout.png" alt="Kai Angel">
+            </div>
+
+            <article class="era-box era-box-light era-box-prestory">
+              <h3 class="era-box-title">Предыстория</h3>
+              <p class="era-box-text">
+                Период ZAVET представляет раннюю главу истории артиста. Он позволяет рассмотреть его творчество до перехода к другому псевдониму.
+              </p>
+            </article>
+          </div>
+
+          <!-- Колонка 4: тёмные карточки периода KAI ANGEL -->
+          <div class="era-col era-col-right">
+            <img class="era-line-right" src="images/line-right.png" alt="">
+
+            <article class="era-box era-box-dark era-box-new">
+              <h3 class="era-box-title">Новый этап</h3>
+              <p class="era-box-text">
+                Под именем Kai Angel исполнитель продолжил музыкальную карьеру, сформировав новый этап своей публичной творческой истории.
+              </p>
+            </article>
+
+            <article class="era-box era-box-dark era-box-releases">
+              <h3 class="era-box-title">Сольные релизы</h3>
+              <p class="era-box-text">
+                Альбомы и другие сольные проекты Kai Angel позволяют изучить работы, выпущенные под его нынешним псевдонимом.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Подблок: История артиста -->
+      <div class="artist-story">
+        <div class="story-header">
+          <img class="story-rays" src="images/story-rays.png" alt="">
+          <h3 class="story-title">История артиста</h3>
+        </div>
+
+        <div class="story-columns">
+          <p class="story-text">
+            <strong>Kai Angel</strong> — артист с уникальным звучанием и собственным подходом к музыке. Его творчество объединяет разные музыкальные направления, визуальную эстетику и эксперименты со звуком, создавая узнаваемую атмосферу и индивидуальный стиль.
+          </p>
+
+          <p class="story-text">
+            Через свои релизы и совместные проекты он продолжает развивать своё звучание, пробовать новые формы самовыражения и раскрывать собственное видение современной музыки. Это творчество — это не только музыкальные композиции, но и целый мир образов, настроений и идей, которые формируют его артистическую идентичность.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция: Самые популярные альбомы -->
+  <section class="albums-section">
+    <div class="albums-inner">
+      <div class="albums-header">
+        <img class="albums-wave" src="images/albums-wave.png" alt="">
+        <h2 class="albums-title">Самые популярные альбомы</h2>
+      </div>
+
+      <div class="albums-grid">
+        <!-- Альбом 1: damage -->
+        <article class="album-card">
+          <div class="album-cover">
+            <img src="images/album-damage.jpg" alt="damage">
+          </div>
+
+          <div class="album-info">
+            <img class="album-sticker" src="images/sticker-damage.png" alt="">
+
+            <h3 class="album-name">damage</h3>
+            <p class="album-desc">
+              Разрушительная энергия и бескомпромиссный хаос. Агрессивный дарк-трэп, пропитанный дисторшном, тяжелыми басами и эстетикой токсичного гламура.
+            </p>
+
+            <div class="album-listen">
+              <span>Слушать:</span>
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Альбом 2: GOD SYSTEM -->
+        <article class="album-card">
+          <div class="album-cover">
+            <img src="images/album-god-system.jpg" alt="GOD SYSTEM">
+          </div>
+
+          <div class="album-info">
+            <img class="album-sticker" src="images/sticker-god-system.png" alt="">
+
+            <h3 class="album-name">GOD SYSTEM</h3>
+            <p class="album-desc">
+              Мрачный киберпанк и индустриальный rage-звук. Kai Angel выступает отстраненным архитектором цифровой реальности с «комплексом бога».
+            </p>
+
+            <div class="album-listen">
+              <span>Слушать:</span>
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="platforms-section">
+  <!-- Фоновый узор: та же текстура с кремовым фоном, что и в секции треков -->
+  <img class="platforms-bg" src="images/tracks-bg-pattern.png" alt="">
+
+  <div class="platforms-inner">
+    <div class="platforms-header">
+      <!-- Декоративные лучики сверху слева от заголовка -->
+      <img class="platforms-rays" src="images/opinions-rays.png" alt="">
+
+      <h2 class="platforms-title">
+        <span>Где можно найти</span>
+        <span>творчество</span>
+      </h2>
+    </div>
+
+    <div class="platforms-track">
+      <!-- Карточка 1: VK Музыка -->
+      <article class="platform-card">
+        <div class="platform-logo">
+          <img src="images/logo-vk-music.png" alt="VK Музыка">
+        </div>
+        <hr class="platform-divider">
+        <p class="platform-desc">
+          Удобна для пользователей соцсети и славится огромной базой редких ремиксов и каверов. На смартфоне бесплатная версия сильно ограничена.
+        </p>
+      </article>
+
+      <!-- Карточка 2: Яндекс Музыка -->
+      <article class="platform-card">
+        <div class="platform-logo">
+          <img src="images/logo-yandex-music.png" alt="Яндекс Музыка">
+        </div>
+        <hr class="platform-divider">
+        <p class="platform-desc">
+          Идеальна благодаря алгоритму «Моя волна», который точно угадывает настроение. Входит в единую подписку Плюс, предлагая огромный выбор подкастов и качественных аудиокниг.
+        </p>
+      </article>
+
+      <!-- Карточка 3: Spotify (частично видна справа по макету) -->
+      <article class="platform-card">
+        <div class="platform-logo">
+          <img src="images/logo-spotify.png" alt="Spotify">
+        </div>
+        <hr class="platform-divider">
+        <p class="platform-desc">
+          Мировой гигант стриминга с лучшими рекомендациями и плейлистами. Отличается огромным каталогом зарубежных релизов и удобным поиском песни на любом устройстве.
+        </p>
+      </article>
+    </div>
+
+    <div class="platforms-controls">
+      <button type="button" class="circle-arrow-btn" aria-label="Предыдущая платформа">‹</button>
+      <button type="button" class="circle-arrow-btn circle-arrow-accent" aria-label="Следующая платформа">›</button>
+    </div>
+  </div>
+  </section>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <!-- Левая колонка: логотип и описание -->
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">
+          <img src="images/logo-ka.png" alt="KA">
+        </a>
+        <p class="footer-desc">
+          Музыка, визуал и история творческого пути Kai Angel.
+        </p>
+      </div>
+
+      <!-- Средняя колонка: ссылки навигации -->
+      <nav class="footer-nav" aria-label="Навигация в подвале">
+        <ul class="footer-links">
+          <li><a href="#main" class="footer-link footer-link-active">Главная</a></li>
+          <li><a href="#about" class="footer-link">O Kai Angel</a></li>
+          <li><a href="#news" class="footer-link">Инфоповоды</a></li>
+          <li><a href="#bio" class="footer-link">Биография</a></li>
+        </ul>
+      </nav>
+
+      <!-- Правая колонка: площадки -->
+      <div class="footer-platforms">
+        <div class="footer-platforms-title">Платформы:</div>
+        <ul class="footer-platforms-list">
+          <li>
+            <a href="#" class="footer-platform">
+              <span class="mini-badge mini-badge-vk">VK</span>
+              <span>VK Музыка</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-platform">
+              <span class="mini-badge mini-badge-sp">S</span>
+              <span>Spotify</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-platform">
+              <span class="mini-badge mini-badge-ym">ЯМ</span>
+              <span>Яндекс Музыка</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Нижняя строка с копирайтом и ссылками -->
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        ©2022. All Rights Reserved. <a href="#" class="footer-copy-link">Pod of Cast</a>
+      </p>
+
+      <div class="footer-legal">
+        <a href="#">Terms</a>
+        <span>·</span>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+</body>
+</html>
